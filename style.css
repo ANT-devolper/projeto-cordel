@@ -27,18 +27,3 @@
 section{
   font-family: 'Sriracha';
 }
-#imagem1{
-  background-color: #000;
-  background-image: url(imagens/background001.jpg);
-  height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: -ms-page;
-}
-.desfocado{
-  background-color: #0000003a;
-  height: 50%;
-  margin: 20px;
-  color: #fff;
-  width: 65%;
-}
