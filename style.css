@@ -40,14 +40,27 @@
   section.imagem{
     color: #fff;
     background-color: #4d4d4d;
-    background-image: url(imagens/background001.jpg);
+    
     background-attachment: fixed;
     background-size: cover;
+    box-shadow:  inset 2px 2px 12px 1px #000;
+  }
+  #imagem1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+  }
+  #imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
   }
 section{
   font-family: var(--text-font);
   padding: 10vh 20px;
   font-size: 3.5vw;
+  text-shadow: 2px 0px 0px #000;
+}
+section > p{
+  padding-bottom: 1em;
 }
 .imagem > p{
   background-color: #0000006c;
