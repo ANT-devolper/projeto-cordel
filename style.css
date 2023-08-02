@@ -40,6 +40,9 @@
   section.imagem{
     color: #fff;
     background-color: #4d4d4d;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
   }
 section{
   font-family: var(--text-font);
